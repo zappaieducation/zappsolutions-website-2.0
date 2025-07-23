@@ -62,7 +62,7 @@ git push -u origin main
 4. **Select your `zapp-solutions-website` repository**
 5. **Configure build settings:**
    - **Branch to deploy**: `main`
-   - **Build command**: `npm run build`
+   - **Build command**: `node build-netlify.js`
    - **Publish directory**: `dist/public`
    - **Functions directory**: `netlify/functions`
 6. **Click "Deploy site"**
